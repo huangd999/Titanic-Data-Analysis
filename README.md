@@ -17,7 +17,7 @@ Before we begin, we will need to clean the data. First, we deal with the missing
 also add in non-standard navalues such as 'nan, 'na', '--'.
 
 Looking at the data, most of the entries in the column row are missing, and since we are not using it, we opt to drop it, since o/w 
-there would be toe few values to observe.
+there would be too few values to observe.
 
 We then proceed to use the .dropna() method to get rid of the remaining missing values.
 
